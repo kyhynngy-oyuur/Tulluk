@@ -12,13 +12,13 @@
   width: 267px;
   height: 295px;
   animation-timing-function: ease-in-out;
-  margin: -264px calc(((100% - 1140px) / 2)  + -150px) 0 auto;
+  margin: -260px calc(((100% - 1140px) / 2)  + -150px) 0 auto;
 }
 
 .u-section-1 .u-image-3 {
   width: 236px;
   height: 282px;
-  margin: -453px calc(((100% - 1140px) / 2)  + 282px) 0 auto;
+  margin: -457px calc(((100% - 1140px) / 2)  + 282px) 0 auto;
 }
 
 .u-section-1 .u-image-4 {
@@ -171,7 +171,7 @@
 
 @media (max-width: 575px) {
    .u-section-1 {
-    min-height: 888px;
+    min-height: 903px;
   }
 
   .u-section-1 .u-image-1 {
