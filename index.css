@@ -5,19 +5,20 @@
 .u-section-1 .u-image-1 {
   width: 575px;
   height: 274px;
-  margin: 239px auto 0 calc(((100% - 1140px) / 2)  + -238px);
+  margin: 240px auto 0 calc(((100% - 1140px) / 2)  + -238px);
 }
 
 .u-section-1 .u-image-2 {
   width: 267px;
   height: 295px;
   animation-timing-function: ease-in-out;
-  margin: -260px calc(((100% - 1140px) / 2)  + -150px) 0 auto;
+  margin: -261px calc(((100% - 1140px) / 2)  + -150px) 0 auto;
 }
 
 .u-section-1 .u-image-3 {
   width: 236px;
   height: 282px;
+  filter: none;
   margin: -457px calc(((100% - 1140px) / 2)  + 282px) 0 auto;
 }
 
@@ -217,4 +218,9 @@
     height: 193px;
     margin-left: 750px;
   }
+}.full-landing-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
