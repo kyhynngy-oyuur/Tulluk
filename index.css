@@ -3,19 +3,16 @@
 }
 
 .u-section-1 .u-custom-html-1 {
-  margin-top: 468px;
-  margin-bottom: 0;
   height: auto;
   min-height: 93px;
-  width: 61px;
-  margin-left: 40px;
+  margin: 468px 1534px 0 40px;
 }
 
 .u-section-1 .u-group-1 {
   width: 1726px;
   min-height: 860px;
   height: auto;
-  margin: -567px auto 0 81px;
+  margin: -567px auto 57px 81px;
 }
 
 .u-section-1 .u-container-layout-1 {
@@ -95,6 +92,12 @@
     min-height: 610px;
   }
 
+  .u-section-1 .u-custom-html-1 {
+    width: 61px;
+    margin-left: 0;
+    margin-right: 594px;
+  }
+
   .u-section-1 .u-group-1 {
     margin-bottom: 49px;
     min-height: 568px;
@@ -172,6 +175,10 @@
     min-height: 900px;
   }
 
+  .u-section-1 .u-custom-html-1 {
+    margin-right: 374px;
+  }
+
   .u-section-1 .u-group-1 {
     margin-top: -545px;
     margin-bottom: 60px;
@@ -221,6 +228,10 @@
 }
 
 @media (max-width: 767px) {
+  .u-section-1 .u-custom-html-1 {
+    margin-right: 194px;
+  }
+
   .u-section-1 .u-group-1 {
     margin-top: -560px;
     width: auto;
@@ -289,6 +300,10 @@
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
     min-height: 669px;
+  }
+
+  .u-section-1 .u-custom-html-1 {
+    margin-right: 0;
   }
 
   .u-section-1 .u-custom-html-2 {
@@ -402,24 +417,7 @@
 .u-section-1 .u-image-8:before,
 .u-section-1 .u-image-8 > .u-container-layout:before {
   transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
-}.preloader-background {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background-color: #eee;
-	
-	position: fixed;
-	z-index: 100;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;	
-}
-body{
-  margin:0;
-  padding: 0;
-}
-.full-landing-image{
+} .full-landing-image{
   width: 100%;
   height: 100vh;
   background: url('') no-repeat center;
